@@ -100,7 +100,7 @@ export default function Header() {
                       </div>
                     </a>
                     <a
-                      href="https://calendly.com/devonboard/30min"
+                      href="https://calendly.com/devonboard/30min" target="_blank"
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
                     >
                       <div className="ml-4">
