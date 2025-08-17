@@ -1,12 +1,106 @@
-# React + Vite
+# Devonboard.site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Devonboard Logo](public/logo.ico)
 
-Currently, two official plugins are available:
+A modern web platform built with React.js that showcases my portfolio and professional services.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Responsive modern UI/UX design
+- Interactive portfolio showcase
+- Contact form integration
+- Dark/Light theme support
+- Fast loading and optimized performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- CSS3
+- Express.js (Backend)
+- MongoDB (Database)
+- Node.js
+
+## 📦 Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/devonboard.git
+```
+
+2. Install dependencies
+```bash
+cd devonboard
+npm install
+```
+
+3. Create `.env` file in root directory
+```env
+VITE_API_URL=your_backend_api_url
+```
+
+4. Start development server
+```bash
+npm run dev
+```
+
+## 🎯 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Create production build
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm test` - Run tests
+
+## 📁 Project Structure
+
+```
+devonboard/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── Backend/
+└── package.json
+```
+
+## 🔧 Configuration
+
+The site can be configured through the following files:
+- `.env` - Environment variables
+- `vite.config.js` - Vite configuration
+- `package.json` - Project dependencies and scripts
+
+## 🚀 Deployment
+
+The website is deployed on [Vercel/Netlify/etc] and can be accessed at [devonboard.site](https://devonboard.site)
+
+## 📝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+- Website: [devonboard.site](https://devonboard.site)
+- GitHub: [@shauryaverma1005](https://github.com/shauryaverma1005)
+
+
+## 🙏 Acknowledgments
+
+- List any resources, libraries, or tools that helped you build this site
+- Credit any inspirations or references
+
+## 📞 Contact
+
+For any queries or suggestions, please reach out through the contact form on the website or email at contact@devonboard.site
