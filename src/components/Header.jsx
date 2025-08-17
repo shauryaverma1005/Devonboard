@@ -87,7 +87,7 @@ export default function Header() {
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="relative grid gap-6 bg-black px-2 py-6 sm:gap-8 ">
                     <a
-                      href="/"
+                      href="#work"
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
                     >
                       <div className="ml-4">
@@ -100,20 +100,7 @@ export default function Header() {
                       </div>
                     </a>
                     <a
-                      href="/"
-                      className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
-                    >
-                      <div className="ml-4">
-                        <p className="text-base font-medium text-white">
-                          FAQ
-                        </p>
-                        <p className="mt-1 text-sm text-gray-500">
-                          Frequently Asked Questions and see what clients has to say
-                        </p>
-                      </div>
-                    </a>
-                    <a
-                      href="/"
+                      href="https://calendly.com/devonboard/30min"
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800 tr04"
                     >
                       <div className="ml-4">

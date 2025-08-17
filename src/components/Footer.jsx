@@ -10,67 +10,34 @@ export default function Footer() {
             <p>Developers Onboard</p>
           </li>
           <li className="space-y-5 row-span-2">
-            <h2 className="text-2xl tracking-wide text-white">Get Help</h2>
+            <h2 className="text-xl tracking-wide text-white">Related Documents</h2>
             <ul className="space-y-4">
               <li>
                 <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
+                  className="hover:text-white transition-colors duration-200 text-xl" target="_blank"
+                  href="https://drive.google.com/file/d/1v0rJupAbZ0D8T29oizvLtEar90GS2T9O/view?usp=sharing"
                 >
                   T&C
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Client Document
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Blog
                 </a>
               </li>
             </ul>
           </li>
           <li className="space-y-5 row-span-2">
-            <h2 className="text-2xl tracking-wide text-white">Products</h2>
+            <h2 className="text-2xl tracking-wide text-white">Get Help</h2>
             <ul className="space-y-4">
               <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
+                <p
+                  className="hover:text-white transition-colors duration-200 text-lg"
                 >
-                  Hosting
-                </a>
+                  contact@devonboard.site
+                </p>
               </li>
               <li>
                 <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
+                  className="hover:text-white transition-colors duration-200 text-lg"
+                  href="https://calendly.com/devonboard/30min" target="_blank"
                 >
-                  Domains
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  Security
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
-                >
-                  SSL
+                  Book session
                 </a>
               </li>
             </ul>
@@ -81,23 +48,23 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
+                  href="https://x.com/_devonboard" target="_blank"
                 >
-                  Twitter
+                  X-Twitter
                 </a>
               </li>
               <li>
                 <a
                   className="hover:text-white transition-colors duration-200 text-xl"
-                  href="/"
+                  href="https://github.com/developers-onboard" target="_blank"
                 >
-                  Facebook
+                  Github
                 </a>
               </li>
               <li>
                 <a
                   className="hover:text-white transition-colors duration-200 font-semibold text-xl"
-                  href="/"
+                  href="https://www.instagram.com/devonboard_/#" target="_blank"
                 >
                   Instagram
                 </a>
@@ -106,7 +73,7 @@ export default function Footer() {
           </li>
         </ul>
         <div className="flex flex-col-reverse justify-between pt-5 pb-4 border-t lg:flex-row bg-top border-black">
-          <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+          {/* <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
                 href="/"
@@ -147,13 +114,13 @@ export default function Footer() {
                 Partners
               </a>
             </li>
-          </ul>
+          </ul> */}
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <a
               href="/"
               className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
             >
-              © 2021 Company Inc.
+              © 2025 Devonboard Inc.
             </a>
           </ul>
         </div>
